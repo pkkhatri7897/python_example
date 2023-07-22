@@ -4,8 +4,9 @@ class Atm():
     def __init__(self):
         self.pin = ''
         self.balance = 0
-
+        # print(id(self))
         self.menu()
+
 
     def menu(self):
         user_input = input(
@@ -69,7 +70,7 @@ class Atm():
         print("Thank you, visit again!")
 
 sbi = Atm()
-
+# print(id(sbi))
 
         
 
